@@ -20320,7 +20320,7 @@ static const struct LevelUpMove sPecharuntLevelUpLearnset[] = {
 };
 #endif //P_FAMILY_PECHARUNT
 
-#if P_FAMILY_GRASSP_FAMILY_GRASSSTARTERTARTER
+#if P_FAMILY_GRASSSTARTER
 static const struct LevelUpMove sGrassStarter1LevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
