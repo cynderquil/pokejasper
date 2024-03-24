@@ -148,3 +148,38 @@ Based off RHH's pokeemerald-expansion v1.8.0 https://github.com/rh-hideout/pokee
     - Fixed overworld snow effect.
 
 There are some mechanics, moves and abilities that are missing and being developed. Check [the project's milestones](https://github.com/rh-hideout/pokeemerald-expansion/milestones) to see which ones.
+
+
+### [Documentation on features can be found here](https://github.com/rh-hideout/pokeemerald-expansion/wiki)
+
+## If I already have a project based on regular pokeemerald, can I use pokeemerald-expansion?
+Yes! Keep in mind that we keep up with pret's documentation of pokeemerald, which means that if your project a bit old, you might get merge conflicts that you need to solve manually.
+- If you haven't set up a remote, run the command `git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion`.
+- Once you have your remote set up, run the command `git pull RHH master`.
+
+With this, you'll get the latest version of pokeemerald-expansion, plus a couple of bugfixes that haven't been released into the next patch version :)
+
+## **How do I update my version of pokeemerald-expansion?**
+- If you haven't set up a remote, run the command `git remote add RHH https://github.com/rh-hideout/pokeemerald-expansion`.
+- Once you have your remote set up, run the command `git pull RHH expansion/1.8.1`.
+
+### Please consider crediting the entire [list of contributors](https://github.com/rh-hideout/pokeemerald-expansion/wiki/Credits) in your project, as they have all worked hard to develop this project :)
+
+## There's a bug in the project. How do I let you guys know?
+Please submit any issues with the project [here](https://github.com/rh-hideout/pokeemerald-expansion/issues). Make sure that the issue wasn't reported by someone else by searching using the filters.
+
+## Can I contribute even if I'm not a member of ROM Hacking Hideout?
+
+Yes! Contributions are welcome via Pull Requests and they will be reviewed by maintainers. Don't feel discouraged if we take a bit to review your PR, we'll get to it.
+
+## Who maintains the project?
+
+The project was originally started by DizzyEgg alongside other contributors.
+
+The project has now gotten larger and DizzyEgg is now maintaining the project as part of the ROM Hacking Hideout community. Some members of this community are taking on larger roles to help maintain the project.
+
+## What is the ROM Hacking Hideout?
+
+A Discord-based ROM hacking community that has many members who hack using the disassembly and decompilation projects for Pokémon. Quite a few contributors to the original feature branches by DizzyEgg were members of ROM Hacking Hideout. You can call it RHH for short!
+
+[Click here to join the RHH Discord Server!](https://discord.gg/6CzjAG6GZk)
