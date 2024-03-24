@@ -6154,6 +6154,48 @@ Cry_Pecharunt::
 	.incbin "sound/direct_sound_samples/cries/pecharunt.bin"
 .endif @ P_FAMILY_PECHARUNT
 
+.if P_FAMILY_GRASSSTARTER == TRUE
+	.align 2
+Cry_GrassStarter1::
+	.incbin "sound/direct_sound_samples/cries/grassstarter1.bin"
+
+	.align 2
+Cry_GrassStarter2::
+	.incbin "sound/direct_sound_samples/cries/grassstarter2.bin"
+
+	.align 2
+Cry_GrassStarter3::
+	.incbin "sound/direct_sound_samples/cries/grassstarter3.bin"
+.endif @ P_FAMILY_GRASSSTARTER
+
+.if P_FAMILY_FIRESTARTER == TRUE
+	.align 2
+Cry_FireStarter1::
+	.incbin "sound/direct_sound_samples/cries/firestarter1.bin"
+
+	.align 2
+Cry_FireStarter2::
+	.incbin "sound/direct_sound_samples/cries/firestarter2.bin"
+
+	.align 2
+Cry_FireStarter3::
+	.incbin "sound/direct_sound_samples/cries/firestarter3.bin"
+.endif @ P_FAMILY_FIRESTARTER
+
+.if P_FAMILY_WATERSTARTER == TRUE
+	.align 2
+Cry_WaterStarter1::
+	.incbin "sound/direct_sound_samples/cries/waterstarter1.bin"
+
+	.align 2
+Cry_WaterStarter2::
+	.incbin "sound/direct_sound_samples/cries/waterstarter2.bin"
+
+	.align 2
+Cry_WaterStarter3::
+	.incbin "sound/direct_sound_samples/cries/waterstarter3.bin"
+.endif @ P_FAMILY_WATERSTARTER
+
 	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"

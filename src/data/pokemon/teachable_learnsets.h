@@ -35838,3 +35838,45 @@ static const u16 sPecharuntTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PECHARUNT
+
+#if P_FAMILY_GRASSSTARTER
+static const u16 sGrassStarter1TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sGrassStarter2TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sGrassStarter3TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+#endif //P_FAMILY_GRASSSTARTER
+
+#if P_FAMILY_FIRESTARTER
+static const u16 sFireStarter1TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFireStarter2TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sFireStarter3TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+#endif //P_FAMILY_FIRESTARTER
+
+#if P_FAMILY_WATERSTARTER
+static const u16 sWaterStarter1TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sWaterStarter2TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sWaterStarter3TeachableLearnset[] = {
+    MOVE_UNAVAILABLE,
+};
+#endif //P_FAMILY_WATERSTARTER

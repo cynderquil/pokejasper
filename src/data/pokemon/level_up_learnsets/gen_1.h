@@ -19850,3 +19850,63 @@ static const struct LevelUpMove sPecharuntLevelUpLearnset[] = {
 };
 #endif //P_FAMILY_PECHARUNT
 
+#if P_FAMILY_GRASSSTARTER
+static const struct LevelUpMove sGrassStarter1LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sGrassStarter2LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sGrassStarter3LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_END
+};
+#endif //P_FAMILY_GRASSSTARTER
+
+#if P_FAMILY_FIRESTARTER
+static const struct LevelUpMove sFireStarter1LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sFireStarter2LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sFireStarter3LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_POUND),
+    LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
+    LEVEL_UP_END
+};
+#endif //P_FAMILY_FIRESTARTER
+
+#if P_FAMILY_WATERSTARTER
+static const struct LevelUpMove sWaterStarter1LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sWaterStarter2LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sWaterStarter3LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_LEER),
+    LEVEL_UP_END
+};
+#endif //P_FAMILY_WATERSTARTER
+

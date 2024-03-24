@@ -2423,6 +2423,21 @@ gCryTable::
 .if P_FAMILY_PECHARUNT == TRUE
 	cry Cry_Pecharunt
 .endif @ P_FAMILY_PECHARUNT
+.if P_FAMILY_GRASSSTARTER == TRUE
+	cry Cry_GrassStarter1
+	cry Cry_GrassStarter2
+	cry Cry_GrassStarter3
+.endif @ P_FAMILY_FIRESTARTER
+.if P_FAMILY_GRASSSTARTER == TRUE
+	cry Cry_FireStarter1
+	cry Cry_FireStarter2
+	cry Cry_FireStarter3
+.endif @ P_FAMILY_FIRESTARTER
+.if P_FAMILY_WATERSTARTER == TRUE
+	cry Cry_WaterStarter1
+	cry Cry_WaterStarter2
+	cry Cry_WaterStarter3
+.endif @ P_FAMILY_WATERSTARTER
 
 	.align 2
 gCryTable_Reverse::
@@ -4849,3 +4864,18 @@ gCryTable_Reverse::
 .if P_FAMILY_PECHARUNT == TRUE
 	cry_reverse Cry_Pecharunt
 .endif @ P_FAMILY_PECHARUNT
+.if P_FAMILY_GRASSSTARTER == TRUE
+	cry_reverse Cry_GrassStarter1
+	cry_reverse Cry_GrassStarter2
+	cry_reverse Cry_GrassStarter3
+.endif @ P_FAMILY_FIRESTARTER
+.if P_FAMILY_GRASSSTARTER == TRUE
+	cry_reverse Cry_FireStarter1
+	cry_reverse Cry_FireStarter2
+	cry_reverse Cry_FireStarter3
+.endif @ P_FAMILY_FIRESTARTER
+.if P_FAMILY_WATERSTARTER == TRUE
+	cry_reverse Cry_WaterStarter1
+	cry_reverse Cry_WaterStarter2
+	cry_reverse Cry_WaterStarter3
+.endif @ P_FAMILY_WATERSTARTER

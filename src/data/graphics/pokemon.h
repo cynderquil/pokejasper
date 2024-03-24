@@ -13040,6 +13040,93 @@ const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mar
 #endif //P_FOOTPRINTS
 #endif //P_FAMILY_PECHARUNT
 
+#if P_FAMILY_GRASSSTARTER
+    const u32 gMonFrontPic_GrassStarter1[] = INCBIN_U32("graphics/pokemon/grassstarter1/anim_front.4bpp.lz");
+    const u32 gMonPalette_GrassStarter1[] = INCBIN_U32("graphics/pokemon/grassstarter1/normal.gbapal.lz");
+    const u32 gMonBackPic_GrassStarter1[] = INCBIN_U32("graphics/pokemon/grassstarter1/back.4bpp.lz");
+    const u32 gMonShinyPalette_GrassStarter1[] = INCBIN_U32("graphics/pokemon/grassstarter1/shiny.gbapal.lz");
+    const u8 gMonIcon_GrassStarter1[] = INCBIN_U8("graphics/pokemon/grassstarter1/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_GrassStarter1[] = INCBIN_U8("graphics/pokemon/grassstarter1/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+    const u32 gMonFrontPic_GrassStarter2[] = INCBIN_U32("graphics/pokemon/grassstarter2/anim_front.4bpp.lz");
+    const u32 gMonPalette_GrassStarter2[] = INCBIN_U32("graphics/pokemon/grassstarter2/normal.gbapal.lz");
+    const u32 gMonBackPic_GrassStarter2[] = INCBIN_U32("graphics/pokemon/grassstarter2/back.4bpp.lz");
+    const u32 gMonShinyPalette_GrassStarter2[] = INCBIN_U32("graphics/pokemon/grassstarter2/shiny.gbapal.lz");
+    const u8 gMonIcon_GrassStarter2[] = INCBIN_U8("graphics/pokemon/grassstarter2/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_GrassStarter2[] = INCBIN_U8("graphics/pokemon/grassstarter2/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+    const u32 gMonFrontPic_GrassStarter3[] = INCBIN_U32("graphics/pokemon/grassstarter3/anim_front.4bpp.lz");
+    const u32 gMonPalette_GrassStarter3[] = INCBIN_U32("graphics/pokemon/grassstarter3/normal.gbapal.lz");
+    const u32 gMonBackPic_GrassStarter3[] = INCBIN_U32("graphics/pokemon/grassstarter3/back.4bpp.lz");
+    const u32 gMonShinyPalette_GrassStarter3[] = INCBIN_U32("graphics/pokemon/grassstarter3/shiny.gbapal.lz");
+    const u8 gMonIcon_GrassStarter3[] = INCBIN_U8("graphics/pokemon/grassstarter3/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_GrassStarter3[] = INCBIN_U8("graphics/pokemon/grassstarter3/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#endif //P_FAMILY_GRASSSTARTER
+
+#if P_FAMILY_FIRESTARTER
+    const u32 gMonFrontPic_FireStarter1[] = INCBIN_U32("graphics/pokemon/firestarter1/anim_front.4bpp.lz");
+    const u32 gMonPalette_FireStarter1[] = INCBIN_U32("graphics/pokemon/firestarter1/normal.gbapal.lz");
+    const u32 gMonBackPic_FireStarter1[] = INCBIN_U32("graphics/pokemon/firestarter1/back.4bpp.lz");
+    const u32 gMonShinyPalette_FireStarter1[] = INCBIN_U32("graphics/pokemon/firestarter1/shiny.gbapal.lz");
+    const u8 gMonIcon_FireStarter1[] = INCBIN_U8("graphics/pokemon/firestarter1/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_FireStarter1[] = INCBIN_U8("graphics/pokemon/firestarter1/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+    const u32 gMonFrontPic_FireStarter2[] = INCBIN_U32("graphics/pokemon/firestarter2/anim_front.4bpp.lz");
+    const u32 gMonPalette_FireStarter2[] = INCBIN_U32("graphics/pokemon/firestarter2/normal.gbapal.lz");
+    const u32 gMonBackPic_FireStarter2[] = INCBIN_U32("graphics/pokemon/firestarter2/back.4bpp.lz");
+    const u32 gMonShinyPalette_FireStarter2[] = INCBIN_U32("graphics/pokemon/firestarter2/shiny.gbapal.lz");
+    const u8 gMonIcon_FireStarter2[] = INCBIN_U8("graphics/pokemon/firestarter2/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_FireStarter2[] = INCBIN_U8("graphics/pokemon/firestarter2/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+    const u32 gMonFrontPic_FireStarter3[] = INCBIN_U32("graphics/pokemon/firestarter3/anim_front.4bpp.lz");
+    const u32 gMonPalette_FireStarter3[] = INCBIN_U32("graphics/pokemon/firestarter3/normal.gbapal.lz");
+    const u32 gMonBackPic_FireStarter3[] = INCBIN_U32("graphics/pokemon/firestarter3/back.4bpp.lz");
+    const u32 gMonShinyPalette_FireStarter3[] = INCBIN_U32("graphics/pokemon/firestarter3/shiny.gbapal.lz");
+    const u8 gMonIcon_FireStarter3[] = INCBIN_U8("graphics/pokemon/firestarter3/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_FireStarter3[] = INCBIN_U8("graphics/pokemon/firestarter3/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#endif //P_FAMILY_FIRESTARTER
+
+#if P_FAMILY_WATERSTARTER
+    const u32 gMonFrontPic_WaterStarter1[] = INCBIN_U32("graphics/pokemon/waterstarter1/anim_front.4bpp.lz");
+    const u32 gMonPalette_WaterStarter1[] = INCBIN_U32("graphics/pokemon/waterstarter1/normal.gbapal.lz");
+    const u32 gMonBackPic_WaterStarter1[] = INCBIN_U32("graphics/pokemon/waterstarter1/back.4bpp.lz");
+    const u32 gMonShinyPalette_WaterStarter1[] = INCBIN_U32("graphics/pokemon/waterstarter1/shiny.gbapal.lz");
+    const u8 gMonIcon_WaterStarter1[] = INCBIN_U8("graphics/pokemon/waterstarter1/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_WaterStarter1[] = INCBIN_U8("graphics/pokemon/waterstarter1/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+    const u32 gMonFrontPic_WaterStarter2[] = INCBIN_U32("graphics/pokemon/waterstarter2/anim_front.4bpp.lz");
+    const u32 gMonPalette_WaterStarter2[] = INCBIN_U32("graphics/pokemon/waterstarter2/normal.gbapal.lz");
+    const u32 gMonBackPic_WaterStarter2[] = INCBIN_U32("graphics/pokemon/waterstarter2/back.4bpp.lz");
+    const u32 gMonShinyPalette_WaterStarter2[] = INCBIN_U32("graphics/pokemon/waterstarter2/shiny.gbapal.lz");
+    const u8 gMonIcon_WaterStarter2[] = INCBIN_U8("graphics/pokemon/waterstarter2/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_WaterStarter2[] = INCBIN_U8("graphics/pokemon/waterstarter2/footprint.1bpp");
+#endif //P_FOOTPRINTS
+
+    const u32 gMonFrontPic_WaterStarter3[] = INCBIN_U32("graphics/pokemon/waterstarter3/anim_front.4bpp.lz");
+    const u32 gMonPalette_WaterStarter3[] = INCBIN_U32("graphics/pokemon/waterstarter3/normal.gbapal.lz");
+    const u32 gMonBackPic_WaterStarter3[] = INCBIN_U32("graphics/pokemon/waterstarter3/back.4bpp.lz");
+    const u32 gMonShinyPalette_WaterStarter3[] = INCBIN_U32("graphics/pokemon/waterstarter3/shiny.gbapal.lz");
+    const u8 gMonIcon_WaterStarter3[] = INCBIN_U8("graphics/pokemon/waterstarter3/icon.4bpp");
+#if P_FOOTPRINTS
+    const u8 gMonFootprint_WaterStarter3[] = INCBIN_U8("graphics/pokemon/waterstarter3/footprint.1bpp");
+#endif //P_FOOTPRINTS
+#endif //P_FAMILY_WATERSTARTER
+
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");

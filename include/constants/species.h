@@ -1628,8 +1628,18 @@
 #define SPECIES_URSHIFU_SINGLE_STRIKE_STYLE_GIGANTAMAX  1521
 #define SPECIES_URSHIFU_RAPID_STRIKE_STYLE_GIGANTAMAX   1522
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    1523
+// Jasper
+#define SPECIES_GRASSSTARTER1                           1524
+#define SPECIES_GRASSSTARTER2                           1525
+#define SPECIES_GRASSSTARTER3                           1526
+#define SPECIES_FIRESTARTER1                            1527
+#define SPECIES_FIRESTARTER2                            1528
+#define SPECIES_FIRESTARTER3                            1529
+#define SPECIES_WATERSTARTER1                           1530
+#define SPECIES_WATERSTARTER2                           1531
+#define SPECIES_WATERSTARTER3                           1532
 
-#define SPECIES_EGG SPECIES_MIMIKYU_TOTEM_BUSTED + 1
+#define SPECIES_EGG SPECIES_WATERSTARTER3 + 1
 
 #define NUM_SPECIES SPECIES_EGG
 
